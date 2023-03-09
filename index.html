@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Images/Agenda.png" alt="Agenda de contatos"/>
+            <h1>Agenda de contatos</h1>
+        </header>
+        <form id="agenda-contatos">
+            <input type="text" id="nome-pessoa" required placeholder="Nome do contato"/>
+            <input type="text" id="numero-pessoa" required placeholder="Número da pessoa" maxlength="11"/>
+            <button type="submit">Salvar contato</button>
+        </form>
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th>Nome da pessoa</th>
+                    <th>Número da pessoa </th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>
